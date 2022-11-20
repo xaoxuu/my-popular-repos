@@ -1,0 +1,9 @@
+########################################
+# 由于 GitHub API 限制，最多可以设置 60 个
+########################################
+
+links:
+  - https://api.github.com/users/xaoxuu/repos?per_page=100&page=1
+  - https://api.github.com/users/xaoxuu/repos?per_page=100&page=2
+
+output: [1, 3, 5, 10, 20]
