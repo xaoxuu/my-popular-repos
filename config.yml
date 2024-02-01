@@ -1,9 +1,9 @@
-########################################
-# 由于 GitHub API 限制，最多可以设置 60 个
-########################################
+# 如果是个人用户，就填写 users/用户名
+owner: users/xaoxuu
 
-links:
-  - https://api.github.com/users/xaoxuu/repos?per_page=100&page=1
-  - https://api.github.com/users/xaoxuu/repos?per_page=100&page=2
+# 如果是组织，就填写 orgs/组织名
+# owner: orgs/volantis-x
 
+
+# 输出 top 多少
 output: [1, 3, 5, 10, 20]
